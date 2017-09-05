@@ -118,7 +118,7 @@ public class ReportBuilder {
                 //New Dashboard
                 HttpClient client = new DefaultHttpClient();
 
-                HttpPost post = new HttpPost("http://quality.leapset.com:3000/Automations");
+                HttpPost post = new HttpPost("");
 
                 StringEntity input = new StringEntity(jsonReport.toString());
                 input.setContentType("application/json");
