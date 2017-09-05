@@ -100,9 +100,9 @@ public class ReportBuilder {
         jsonReport.addProperty("uri", featureName.replace("-", "").replace("  ", " ").replace(" ", "_"));
 
         try {
-        /*    FileWriter file = new FileWriter("./target/" + featureName.replace("-", "").replace("  ", " ").replace(" ", "_") + ".json");
+            FileWriter file = new FileWriter("./target/" + featureName.replace("-", "").replace("  ", " ").replace(" ", "_") + ".json");
             file.write("[" + jsonReport.toString() + "]");
-            file.close();*/
+            file.close();
 
 
             System.out.print(jsonReport.toString());
